@@ -336,7 +336,7 @@ label {
   }
   .menu {
     position: fixed;
-    height: calc(100vh - 34px);
+    height: calc(100% - 34px);
     width: 100vw;
     bottom: 0rem;
     left: -999px;
@@ -344,7 +344,7 @@ label {
     justify-content: space-evenly;
     background: var(--menu-bg);
     border: unset;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
   }
   #check:checked ~ .menu {
     left: 0rem;
