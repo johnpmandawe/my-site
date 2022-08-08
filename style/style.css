@@ -327,6 +327,13 @@ label {
   label {
     display: block;
   }
+  #nav {
+    position: fixed;
+  }
+  #content {
+    padding: 3rem 0rem 0.5rem 0rem;
+    width: 100%;
+  }
   .menu {
     position: fixed;
     height: calc(100vh - 34px);
@@ -337,17 +344,13 @@ label {
     justify-content: space-evenly;
     background: var(--menu-bg);
     border: unset;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-out;
   }
   #check:checked ~ .menu {
     left: 0rem;
   }
   .menu li a {
     border: unset;
-  }
-  #content {
-    padding: 0.5rem 0rem;
-    width: 100%;
   }
   #main_content {
     border-radius: unset;
