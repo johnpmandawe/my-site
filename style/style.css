@@ -336,9 +336,9 @@ label {
   }
   .menu {
     position: fixed;
-    height: calc(100% - 34px);
+    height: calc(100vh - 34px);
     width: 100vw;
-    bottom: 0rem;
+    top: 34px;
     left: -999px;
     flex-direction: column;
     justify-content: space-evenly;
