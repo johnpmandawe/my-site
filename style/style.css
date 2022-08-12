@@ -131,7 +131,7 @@ label {
 }
 #main_content {
   max-width: 1279px;
-  margin: 2rem auto 9.9rem auto;
+  margin: 2rem auto;
   padding: 0.7rem 0.5rem;
   border-radius: 0.3rem;
   background: var(--main-bg);
@@ -276,7 +276,7 @@ label {
 }
 /* Footer */
 #footer {
-  position: absolute;
+  position: static;
   width: 100%;
   bottom: 0rem;
   padding: 2rem 0rem;
@@ -354,7 +354,7 @@ label {
   }
   #main_content {
     border-radius: unset;
-    margin: 0rem auto 9.9rem auto;
+    margin: 0rem auto;
   }
   .contact_form {
     margin: 1rem auto 0rem auto;
