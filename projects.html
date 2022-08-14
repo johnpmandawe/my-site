@@ -6,6 +6,17 @@
         ? document.documentElement.classList.add('darkmode')
         : document.documentElement.classList.remove('darkmode');
     </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,6 +30,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
       integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -67,14 +92,27 @@
                   >Click here.</a
                 >
               </p>
-              <div class="slider flex">
+              <div class="slider">
                 <img
                   src="img/chat-app/chat_app.PNG"
                   class="img chat_app_holder"
                   alt=""
                 />
-                <i class="fa-solid fa-angle-left"></i>
-                <i class="fa-solid fa-angle-right"></i>
+                <img
+                  src="img/chat-app/signup.PNG"
+                  class="img chat_app_holder"
+                  alt=""
+                />
+                <img
+                  src="img/chat-app/chat_section.PNG"
+                  class="img chat_app_holder"
+                  alt=""
+                />
+                <img
+                  src="img/chat-app/conversation.PNG"
+                  class="img chat_app_holder"
+                  alt=""
+                />
               </div>
             </li>
             <li>
@@ -87,14 +125,32 @@
                   >Click here.</a
                 >
               </p>
-              <div class="slider flex">
+              <div class="slider">
                 <img
                   src="img/tdl-app/tdl_app.PNG"
                   class="img tdl_app_holder"
                   alt=""
                 />
-                <i class="fa-solid fa-angle-left"></i>
-                <i class="fa-solid fa-angle-right"></i>
+                <img
+                  src="img/tdl-app/create.PNG"
+                  class="img tdl_app_holder"
+                  alt=""
+                />
+                <img
+                  src="img/tdl-app/view.PNG"
+                  class="img tdl_app_holder"
+                  alt=""
+                />
+                <img
+                  src="img/tdl-app/check.PNG"
+                  class="img tdl_app_holder"
+                  alt=""
+                />
+                <img
+                  src="img/tdl-app/edit.PNG"
+                  class="img tdl_app_holder"
+                  alt=""
+                />
               </div>
             </li>
             <li>
@@ -110,9 +166,19 @@
                   >Click here.</a
                 >
               </p>
-              <div class="slider flex">
+              <div class="slider">
                 <img
                   src="img/snake-game/snake.PNG"
+                  class="img snake_app_holder"
+                  alt=""
+                />
+                <img
+                  src="img/snake-game/start.PNG"
+                  class="img snake_app_holder"
+                  alt=""
+                />
+                <img
+                  src="img/snake-game/end.PNG"
                   class="img snake_app_holder"
                   alt=""
                 />
@@ -135,14 +201,52 @@
                   >Click here.</a
                 >
               </p>
-              <div class="slider flex">
+              <div class="slider">
                 <img
                   src="img/social-network-app/login.PNG"
                   class="img social_app_holder"
                   alt=""
                 />
-                <i class="fa-solid fa-angle-left"></i>
-                <i class="fa-solid fa-angle-right"></i>
+                <img
+                  src="img/social-network-app/signup.PNG"
+                  class="img social_app_holder"
+                  alt=""
+                />
+                <img
+                  src="img/social-network-app/home.PNG"
+                  class="img social_app_holder"
+                  alt=""
+                />
+                <img
+                  src="img/social-network-app/posts.PNG"
+                  class="img social_app_holder"
+                  alt=""
+                />
+                <img
+                  src="img/social-network-app/friends.PNG"
+                  class="img social_app_holder"
+                  alt=""
+                />
+                <img
+                  src="img/social-network-app/profile.PNG"
+                  class="img social_app_holder"
+                  alt=""
+                />
+                <img
+                  src="img/social-network-app/notifs.PNG"
+                  class="img social_app_holder"
+                  alt=""
+                />
+                <img
+                  src="img/social-network-app/update_post.PNG"
+                  class="img social_app_holder"
+                  alt=""
+                />
+                <img
+                  src="img/social-network-app/visits.PNG"
+                  class="img social_app_holder"
+                  alt=""
+                />
               </div>
             </li>
           </ul>
@@ -171,7 +275,8 @@
       <p id="footer_text">All rights reserved. Powered by Github.</p>
     </footer>
     <script src="js/adjust-footer.js"></script>
-    <script src="js/project-slider.js"></script>
+    <!-- <script src="js/project-slider.js"></script> -->
+    <script src="js/projects-slick.js"></script>
     <script src="js/toggle-button.js"></script>
   </body>
 </html>
