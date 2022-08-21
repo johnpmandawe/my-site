@@ -360,7 +360,7 @@ label {
   }
   #project_list .img {
     object-fit: contain;
-    height: 150px;
+    height: 200px;
     border-radius: 0.3rem;
   }
 }
